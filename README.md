@@ -37,7 +37,9 @@ A fully containerized Flask application using Docker. This project provides a li
 
    Orchestration: Docker Compose manages the Flask app and any additional services (e.g., database, caching) as defined in docker-compose.yml.
 
-  Serving the Application: Flask runs on port 5500 inside the container, which is mapped to the host machine for access via http://localhost:5500.
+  Serving the Application: Flask runs on port 5500 inside the container, which is mapped to the host machine for access via 
+          
+            http://localhost:5500.
 
    Stopping and Cleanup: Running docker-compose down stops the application and removes containers.
 
