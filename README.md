@@ -19,7 +19,7 @@ A fully containerized Flask application using Docker. This project provides a li
 
 2️⃣ Build and Run the Application:-
 
-    docker compose up --build
+    docker compose up 
 
 3️⃣ Access the App:-
 
