@@ -3,11 +3,11 @@ A fully containerized Flask application using Docker. This project provides a li
 
   🛠️ Prerequisites
 
-        Ensure you have the following installed:
+   Ensure you have the following installed:
 
-        Docker 🐳 (Install Docker)
+   Docker 🐳 (Install Docker)
 
-        Docker Compose (Install Docker Compose)
+   Docker Compose (Install Docker Compose)
 
 📦 Setup & Run
 
@@ -40,5 +40,7 @@ A fully containerized Flask application using Docker. This project provides a li
   Serving the Application: Flask runs on port 5500 inside the container, which is mapped to the host machine for access via http://localhost:5500.
 
    Stopping and Cleanup: Running docker-compose down stops the application and removes containers.
+
+   
 
 
