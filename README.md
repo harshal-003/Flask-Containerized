@@ -3,7 +3,7 @@ A fully containerized Flask application using Docker. This project provides a li
 
   🛠️ Prerequisites
 
-   Ensure you have the following installed:
+ -  Ensure you have the following installed:
 
    Docker 🐳 (Install Docker)
 
