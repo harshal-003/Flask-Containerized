@@ -1,11 +1,14 @@
 services:
   flask-app:
-    build: .
+    build: 
+      context: ./src
+      dockerfile: Dockerfile.dev
     ports:
       - 5500:5500
     volumes:
-      - ".:/app"
+      - ".:/src/app"
     environment:
       - FLASK_ENV=development 
       - FLASK_APP=main.py  
-    restart: always
+    
+    
